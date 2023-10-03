@@ -11,9 +11,9 @@ export class gridClass {
     }
     private matrixGenerator(){
         const matrixCell = []
-        for (let i = 0; i < this.width; i += 10) {
+        for (let i = 0; i < this.width; i += 5) {
             const array_j = []
-            for (let j = 0; j < this.height; j += 10) {
+            for (let j = 0; j < this.height; j += 5) {
               const currentCell = new CellClass(j,i,false)
               array_j.push(currentCell)
             }

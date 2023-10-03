@@ -10,8 +10,8 @@ export class CellClass {
         this.possition_x = possition_x
         this.possition_y = possition_y
         this.alive = alive
-        this.height = 10
-        this.width = 10
+        this.height = 5
+        this.width = 5
     }
     public setAlive (alive:boolean) {
         this.alive = alive
